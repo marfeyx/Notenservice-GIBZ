@@ -30,16 +30,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/homepage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaG9tZXBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/Inbox.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ib3gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/_Imports.razor]
