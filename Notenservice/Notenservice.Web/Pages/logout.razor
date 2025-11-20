@@ -1,0 +1,19 @@
+﻿<PageTitle>Logout</PageTitle>
+
+<section>
+    <h3>Logout</h3>
+
+    <button @onclick="LogoutAsync">Logout</button>
+</section>
+
+@code {
+    private async Task LogoutAsync()
+    {
+        await JS.InvokeVoidAsync("localStorage.removeItem", "authToken");
+
+        Http.DefaultRequestHeaders.Authorization = null;
+
+        Console.WriteLine("[DEBUG] Logout succesful.");
+        Nav.NavigateTo("/", forceLoad: true);
+    }
+}

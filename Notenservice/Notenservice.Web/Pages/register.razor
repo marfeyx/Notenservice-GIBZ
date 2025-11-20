@@ -1,5 +1,73 @@
-﻿<h3>register</h3>
+﻿<PageTitle>Register</PageTitle>
+
+<section>
+    <h3>Register</h3>
+
+    <div>
+        <input placeholder="Name" @bind="newUsername"/>
+
+        <input placeholder="Email"@bind="newEmail"/>
+
+        <input placeholder="Password" @bind="newPassword" />
+
+        <button 
+            disabled="@string.IsNullOrWhiteSpace(newUsername)" 
+            disabled="@string.IsNullOrWhiteSpace(newEmail)" 
+            disabled="@string.IsNullOrWhiteSpace(newPassword)"
+            @onclick="() => registerUser(newUsername, newEmail, newPassword)">
+            Add
+        </button>
+    </div>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <p class="error-text" style="color:#b91c1c">@errorMessage</p>
+    }
+</section>
 
 @code {
 
+    string newUsername = "";
+    string newEmail = "";
+    string newPassword = "";
+    string? errorMessage;
+
+    private async Task registerUser(string name, string email, string password)
+    {
+        errorMessage = null;
+
+        name = name?.Trim() ?? string.Empty;
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            errorMessage = "Username is required.";
+            return;
+        }
+
+        var request = new UserRegistrationRequestDTO
+        {
+            Username = newUsername,
+            Email = newEmail?.Trim() ?? string.Empty,
+            Password = newPassword ?? string.Empty
+        };
+
+        try
+        {
+            var result = await AuthService.RegisterAsync(request);
+            if (result is not null)
+            {
+                newUsername = "";
+                newEmail = "";
+                newPassword = "";
+                errorMessage = "Registration successful.";
+            }
+            else
+            {
+                errorMessage = "Registration failed.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Registration failed: " + ex.Message;
+        }
+    }
 }

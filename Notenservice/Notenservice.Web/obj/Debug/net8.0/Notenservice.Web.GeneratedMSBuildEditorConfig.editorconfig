@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
