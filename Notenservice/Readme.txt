@@ -8,3 +8,7 @@ Gruppenmitglieder:
 ///
 
 Projektplanung:
+
+Resultat:
+
+Erklärung der Features:

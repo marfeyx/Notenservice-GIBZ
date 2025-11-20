@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice GIBZ\\Notenservice\\",
+  "WorkspaceRootPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D6B899B-3EA0-4824-B380-F522608E6094}|Solution Items{5D6B899B-3EA0-4824-B380-F522608E6094}|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice GIBZ\\Notenservice\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{5D6B899B-3EA0-4824-B380-F522608E6094}|Solution Items{5D6B899B-3EA0-4824-B380-F522608E6094}|solutionrelative:Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice gibz\\notenservice\\notenservice.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Readme.txt",
-              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice GIBZ\\Notenservice\\Readme.txt",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
               "RelativeDocumentMoniker": "Readme.txt",
-              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice GIBZ\\Notenservice\\Readme.txt",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
               "RelativeToolTip": "Readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-11-20T08:12:32.114Z",
               "EditorCaption": ""
@@ -45,14 +45,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice GIBZ\\Notenservice\\Notenservice.Shared\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Class1.cs",
               "RelativeDocumentMoniker": "Notenservice.Shared\\Class1.cs",
-              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice GIBZ\\Notenservice\\Notenservice.Shared\\Class1.cs",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Class1.cs",
               "RelativeToolTip": "Notenservice.Shared\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T08:10:12.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-20T08:10:12.756Z"
             }
           ]
         }
