@@ -1,5 +1,62 @@
-﻿<h3>login</h3>
+﻿<section>
+    <h3>Login</h3>
+
+    <div>
+        <input placeholder="Username"@bind="Username"/>
+        <input placeholder="Password" @bind="Password"/>
+        <button 
+            disabled="@string.IsNullOrWhiteSpace(Username)" 
+            disabled="@string.IsNullOrWhiteSpace(Password)" 
+            type="button" @onclick="LoginAsync">
+            Login
+        </button>
+    </div>
+
+    @if (!string.IsNullOrEmpty(error))
+    {
+        <p class="error-text" style="color:#b91c1c">@error</p>
+    }
+</section>
 
 @code {
+    string Username = "";
+    string Password = "";
+    string? error;
 
+    private async Task LoginAsync()
+    {
+        error = null;
+
+        try
+        {
+            var result = await AuthService.LoginAsync(new UserLoginRequestDTO
+            {
+                Username = Username.Trim(),
+                Password = Password
+            });
+
+            if (result is not null && !string.IsNullOrWhiteSpace(result.Token))
+            {
+                await JS.InvokeVoidAsync("localStorage.setItem", "authToken", result.Token);
+                if (AuthStateProvider is CustomAuthStateProvider custom)
+                {
+                    await custom.MarkUserAsAuthenticated(result.Token);
+                }
+
+                Http.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", result.Token);
+
+                Nav.NavigateTo("/shop");
+            }
+            else
+            {
+                error = "Invalid login.";
+            }
+        }
+        catch (Exception ex)
+        {
+            error = "Login failed: " + ex.Message;
+        }
+    }
 }
+
