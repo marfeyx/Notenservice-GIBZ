@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Readme.txt" />
+  </Folder>
+  <Project Path="Notenservice.API/Notenservice.API.csproj" />
+  <Project Path="Notenservice.Shared/Notenservice.Shared.csproj" />
+  <Project Path="Notenservice.Web/Notenservice.Web.csproj" />
+</Solution>
