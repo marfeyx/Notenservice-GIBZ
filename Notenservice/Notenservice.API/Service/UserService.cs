@@ -1,5 +1,4 @@
 ﻿using API.DTOs.Authentication;
-using API.DTOs.User;
 using API.Services.Abstract;
 using API.UoW.Abstract;
 using Microsoft.AspNetCore.Identity;
@@ -59,12 +58,12 @@ public class UserService : IUserService
 
     public async Task<string> LoginAsync(LoginRequestDTO request)
     {
-        User user = await _unitOfWork.Users.GetByUsernameAsync(request.Username);
+        var user = await _unitOfWork.Users.GetByUsernameAsync(request.Username);
 
         if (user == null)
             throw new Exception("Invalid username");
 
-        PasswordVerificationResult result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, request.Password);
+        var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, request.Password);
 
         if (result == PasswordVerificationResult.Failed)
             throw new Exception("Invalid username or password");
@@ -74,6 +73,7 @@ public class UserService : IUserService
 
         throw new Exception("Unexpected failure during login process.");
     }
+
 
     public async Task<IEnumerable<UserDTO>> GetAllUsersAsync()
     {

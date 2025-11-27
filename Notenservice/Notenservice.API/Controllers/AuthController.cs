@@ -19,19 +19,23 @@ public class AuthenticationController : ControllerBase
     [HttpPost("register")]
     public async Task<IActionResult> Register([FromBody] RegisterRequestDTO request)
     {
-        if (request == null) return BadRequest("Request body is null");
-
-        string token = await _userService.RegisterAsync(request);
-        return Ok(new { Token = token });
+        try
+        {
+            var token = await _userService.RegisterAsync(request);
+            return Ok(new { Token = token });
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(new { Message = ex.Message });
+        }
     }
-
 
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequestDTO request)
     {
         try
         {
-            string token = await _userService.LoginAsync(request);
+            var token = await _userService.LoginAsync(request);
             return Ok(new { Token = token });
         }
         catch (Exception ex)
