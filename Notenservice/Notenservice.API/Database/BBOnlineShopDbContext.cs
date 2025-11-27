@@ -7,6 +7,7 @@ public class BBOnlineShopDbContext : DbContext
 {
     public BBOnlineShopDbContext(DbContextOptions<BBOnlineShopDbContext> options) : base(options)
     {
+        public DbSet<User> Users { get; set; }
     }
 
 
