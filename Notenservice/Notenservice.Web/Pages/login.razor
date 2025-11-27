@@ -1,15 +1,17 @@
 ﻿<section>
-    <h1>Login</h1>
+    <h1 class="text-center m-3">Login</h1>
 
-    <div class="container-fluid card">
-        <input placeholder="Username"@bind="Username"/>
-        <input placeholder="Password" @bind="Password"/>
-        <button 
-            disabled="@string.IsNullOrWhiteSpace(Username)" 
-            disabled="@string.IsNullOrWhiteSpace(Password)" 
-            type="button" @onclick="LoginAsync">
-            Login
-        </button>
+    <div class="container-fluid row justify-content-center">
+        <div class="card col-4">
+            <div class="m-3 row justify-content-center">
+                <input class="col-12 m-3 mb-0 card p-2" placeholder="Username" @bind="Username" />
+                <input class="col-12 m-3 mb-0 card p-2" placeholder="Password" @bind="Password" />
+                <button class="col-6 m-3 mb-0 btn btn-primary"
+                        type="button" @onclick="LoginAsync">
+                    Login
+                </button>
+            </div>
+        </div>
     </div>
 
     @if (!string.IsNullOrEmpty(error))

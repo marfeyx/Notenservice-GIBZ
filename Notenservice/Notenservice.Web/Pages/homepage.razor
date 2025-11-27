@@ -1,5 +1,124 @@
-﻿<h3>homepage</h3>
+﻿@page "/homepage"
+<PageTitle>Home</PageTitle>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="brand">
+            <a href="#top" class="logo">GIBZ</a>
+            <span class="tagline">Grow. Inspire. Become.</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main id="top">
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1>Welcome to GIBZ</h1>
+                <p class="lead">A modern, caring, and professional environment where learners thrive. Explore our programs and start your journey today.</p>
+                <p class="hero-cta">
+                    <a class="btn primary" href="#programs">View Programs</a>
+                    <a class="btn outline" href="#contact">Get in Touch</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About GIBZ</h2>
+            <p class="muted">GIBZ is committed to providing high-quality, practice-oriented education in a supportive and inclusive environment. Our focus is on real-world skills, critical thinking, and personal development.</p>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Mission</h3>
+                    <p>To educate and empower students to become skilled professionals and active citizens.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Vision</h3>
+                    <p>To be recognized for excellence in vocational and professional education and training.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Values</h3>
+                    <p>Respect, integrity, innovation, and student-centered learning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="section programs">
+        <div class="container">
+            <h2>Programs</h2>
+            <p class="muted">Our curriculum offers a broad variety of vocational and technical programs designed to prepare students for successful careers.</p>
+
+            <div class="program-grid">
+                <article class="program-card">
+                    <h3>Business & Management</h3>
+                    <p>Practical business skills, project management, and entrepreneurship training.</p>
+                    <span class="pill">Full-time</span>
+                </article>
+
+                <article class="program-card">
+                    <h3>Information Technology</h3>
+                    <p>Software development, networking, and cybersecurity fundamentals with hands-on labs.</p>
+                    <span class="pill">Part-time</span>
+                </article>
+
+                <article class="program-card">
+                    <h3>Health & Social Care</h3>
+                    <p>Professional healthcare training combined with real-world clinical practice.</p>
+                    <span class="pill">Apprenticeship</span>
+                </article>
+
+                <article class="program-card">
+                    <h3>Creative Arts & Design</h3>
+                    <p>Design thinking, multimedia, and creative production for modern media industries.</p>
+                    <span class="pill">Certificate</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container contact-inner">
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p class="muted">Questions? Visit our campus, call or email us — we’d love to help you explore GIBZ.</p>
+
+                <ul class="contact-list">
+                    <li><strong>Address:</strong> Musterstrasse 1, 8000 Zurich</li>
+                    <li><strong>Phone:</strong> +41 44 000 00 00</li>
+                    <li><strong>Email:</strong> info@gibz.example</li>
+                </ul>
+            </div>
+
+            <div class="contact-card">
+                <h3>Visit Us</h3>
+                <p>Drop by during office hours for a campus tour and an introductory meeting.</p>
+                <p class="muted small">Office hours: Mon–Fri • 08:30–17:00</p>
+                <a class="btn primary" href="#top">Request a Visit</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div>© @DateTime.Now.Year GIBZ — All rights reserved.</div>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+</footer>
 
 @code {
-
+    // No backend or functionality included — layout and styling only.
 }
