@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\inbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\inbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.api\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "logout.razor",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\logout.razor",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
+              "RelativeToolTip": "Notenservice.Web\\Pages\\logout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:54:59.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "register.razor",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\register.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\register.razor",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\register.razor",
+              "RelativeToolTip": "Notenservice.Web\\Pages\\register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:54:58.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.razor",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\login.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\login.razor",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\login.razor",
+              "RelativeToolTip": "Notenservice.Web\\Pages\\login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:54:55.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inbox.razor",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\Inbox.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\Inbox.razor",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\Inbox.razor",
+              "RelativeToolTip": "Notenservice.Web\\Pages\\Inbox.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:54:54.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "homepage.razor",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\homepage.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\homepage.razor",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\homepage.razor",
+              "RelativeToolTip": "Notenservice.Web\\Pages\\homepage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:54:51.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Notenservice.Web\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-27T07:45:05.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
+              "RelativeToolTip": "Notenservice.API\\Service\\UserService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:44:18.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
+              "RelativeDocumentMoniker": "Readme.txt",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
+              "RelativeToolTip": "Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-27T07:41:57.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
