@@ -1,4 +1,4 @@
-﻿namespace API.DTOs.User;
+﻿namespace SHARED.DTOs.User;
 
 public class UserUpdateDTO
 {

@@ -1,5 +1,10 @@
-﻿using API.Services.Abstract;
+﻿using API.DTOs.Authentication;
+using API.DTOs.User;
+using API.Services.Abstract;
+using API.UoW.Abstract;
 using Microsoft.AspNetCore.Identity;
+using Shared.DTOs;
+using SHARED.DTOs.User;
 
 namespace Notenservice.API.Service;
 

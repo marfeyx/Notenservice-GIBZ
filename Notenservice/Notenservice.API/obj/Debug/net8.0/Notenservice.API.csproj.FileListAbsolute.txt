@@ -1,0 +1,9 @@
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.csproj.AssemblyReference.cache
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.AssemblyInfoInputs.cache
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.AssemblyInfo.cs
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.csproj.CoreCompileInputs.cache
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.API\obj\Debug\net8.0\Notenservice.API.sourcelink.json
