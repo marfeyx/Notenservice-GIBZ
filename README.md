@@ -8,6 +8,7 @@ Schulprojekt Notenservice GIBZ
 - Jan Frischknecht
 
 /// DOKUMENTATION ///
+
 Wir begannen indem wir uns überlegten was für eine Applikation wir machen könnten,
 um das Problem der Prorektoren und der Lehrer zu lösen.
 Dafür bekamen wir eine Vorlage zu einer Nutzwertanalyse, worauf bei uns Blazor am besten abschnitt.
