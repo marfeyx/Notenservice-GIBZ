@@ -1,6 +1,10 @@
-﻿namespace Notenservice.Web.wwwroot.css
-{
-    public class style
-    {
-    }
+﻿.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 50px;
+    color: white;
+    padding: 0 50px;
+    padding-top: 3px;
+    background-color: blue:
 }

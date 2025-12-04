@@ -1,0 +1,37 @@
+﻿.homepage-container {
+    margin-left: 250px; /* Platz für den Blazor Navbar auf der linken Seite */
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #2196f3;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+    .page-header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    .page-header p {
+        font-size: 1.2rem;
+    }
+
+.card {
+    border-radius: 10px;
+}
+
+.collection-item {
+    font-weight: bold;
+    color: #333;
+}
+
+    .collection-item:hover {
+        background-color: #eeeeee;
+    }

@@ -1,4 +1,66 @@
 ﻿@page "/Homepage"
 <PageTitle>Home</PageTitle>
 
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" />
 
+<div class="homepage-container">
+
+    <header class="page-header blue">
+        <div class="nav-wrapper container">
+            <img src="images/GIBZLogo.png" alt="GIBZ Logo" class="logo" />
+            <span class="header-title">GIBZ Notenservice</span>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row">
+
+            <div class="col s12 m6">
+                <div class="card blue lighten-4 hoverable">
+                    <div class="card-content">
+                        <span class="card-title">Willkommen</span>
+                        <p>Hier findest du alle Infos rund um den Notenservice am GIBZ.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/Grades">Zu den Noten</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="card green lighten-4 hoverable">
+                    <div class="card-content">
+                        <span class="card-title">Neuigkeiten</span>
+                        <p>Bleibe auf dem Laufenden mit den aktuellen Schulnews.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="/News">Mehr erfahren</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h5>Schnellzugriffe</h5>
+            <div class="collection">
+                <a href="/Schedule" class="collection-item">Stundenplan</a>
+                <a href="/Teachers" class="collection-item">Lehrer</a>
+                <a href="/Events" class="collection-item">Events</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer blue">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <p class="white-text center">© 2025 GIBZ Notenservice</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

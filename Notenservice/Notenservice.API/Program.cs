@@ -1,3 +1,7 @@
+using API.db;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+
 namespace Notenservice.API
 {
     public class Program
