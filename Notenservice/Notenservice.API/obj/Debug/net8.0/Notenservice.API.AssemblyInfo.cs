@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notenservice.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f378a4f64cf101858f57590108dd05c2efb4555d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c845adfaeb0a51ab2fa030e4d4c91deefbb870cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notenservice.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notenservice.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
