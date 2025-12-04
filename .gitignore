@@ -416,3 +416,5 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+Notenservice/Notenservice.API/obj/Debug/net8.0/Notenservice.API.AssemblyInfo.cs
+Notenservice/Notenservice.API/obj/Debug/net8.0/Notenservice.API.AssemblyInfoInputs.cache
