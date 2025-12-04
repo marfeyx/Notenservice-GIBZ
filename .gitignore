@@ -418,3 +418,6 @@ FodyWeavers.xsd
 *.msp
 Notenservice/Notenservice.API/obj/Debug/net8.0/Notenservice.API.AssemblyInfo.cs
 Notenservice/Notenservice.API/obj/Debug/net8.0/Notenservice.API.AssemblyInfoInputs.cache
+Notenservice/.vs/Notenservice.slnx/v18/DocumentLayout.json
+Notenservice/.vs/Notenservice.slnx/DesignTimeBuild/.dtbcache.v2
+Notenservice/.vs/Notenservice.slnx/v18/.futdcache.v2

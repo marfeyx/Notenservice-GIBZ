@@ -1,7 +1,4 @@
 ﻿using System.Net.Http.Json;
-using Microsoft.AspNetCore.Components.Authorization;
-using Shared.DTOs;
-
 namespace Web.Service;
 
 public class AuthService : IAuthService
