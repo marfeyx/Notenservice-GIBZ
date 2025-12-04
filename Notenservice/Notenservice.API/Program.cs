@@ -1,4 +1,3 @@
-
 namespace Notenservice.API
 {
     public class Program
@@ -6,8 +5,6 @@ namespace Notenservice.API
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
 
             builder.Services.AddCors(options =>
             {
@@ -19,20 +16,14 @@ namespace Notenservice.API
 
                 });
             });
-
-            // automapper
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // db context
             string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
             builder.Services.AddDbContext<BBOnlineShopDbContext>(options =>
                 options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-            // controllers
             builder.Services.AddControllers();
 
-
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(c =>
             {
@@ -85,9 +76,6 @@ namespace Notenservice.API
 
             var app = builder.Build();
 
-
-
-            // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
