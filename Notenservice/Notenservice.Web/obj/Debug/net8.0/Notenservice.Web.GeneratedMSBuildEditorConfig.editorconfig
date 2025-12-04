@@ -15,49 +15,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Notenservice.Web
 build_property.RootNamespace = Notenservice.Web
-build_property.ProjectDir = C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.Web\
+build_property.ProjectDir = C:\Users\rutterl1\Documents\VSCode\GIBZ\M293\Projekt\Notenservice-GIBZ\Notenservice\Notenservice.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\trostj2\Desktop\GitHub Repos\Notenservice-GIBZ\Notenservice\Notenservice.Web
+build_property.MSBuildProjectDirectory = C:\Users\rutterl1\Documents\VSCode\GIBZ\M293\Projekt\Notenservice-GIBZ\Notenservice\Notenservice.Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/App.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/homepage.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/homepage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcaG9tZXBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/Inbox.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/Inbox.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5ib3gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/login.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/logout.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/logout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9nb3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/register.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Pages/register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/_Imports.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Layout/MainLayout.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-zrt3xnu84t
 
-[C:/Users/trostj2/Desktop/GitHub Repos/Notenservice-GIBZ/Notenservice/Notenservice.Web/Layout/NavMenu.razor]
+[C:/Users/rutterl1/Documents/VSCode/GIBZ/M293/Projekt/Notenservice-GIBZ/Notenservice/Notenservice.Web/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-nbiygkwb1l
