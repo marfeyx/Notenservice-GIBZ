@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Notenservice.API.Models;
+using Notenservice.Shared.DTO.Requests;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
