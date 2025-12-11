@@ -1,8 +1,6 @@
-﻿using Shared.DTOs;
-
-namespace Web.Service;
+﻿namespace Web.Service;
 public interface IAuthService
 {
-    Task<AuthResponse?> RegisterAsync(RegisterRequestDTO registerModel);
+    Task<AuthResponse?> RegisterAsync(UserLoginRequestDTO registerModel);
     Task<AuthResponse?> LoginAsync(UserLoginRequestDTO loginModel);
 }

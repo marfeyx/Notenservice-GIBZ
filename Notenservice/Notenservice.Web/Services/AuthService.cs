@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Json;
+using Todo.Shared.DTO;
 namespace Web.Service;
 
 public class AuthService : IAuthService
@@ -41,6 +42,11 @@ public class AuthService : IAuthService
         }
         Console.WriteLine("Login succesful!");
         return authResponse;
+    }
+
+    public Task<AuthResponse?> RegisterAsync(UserRegistrationRequestDTO registerModel)
+    {
+        throw new NotImplementedException();
     }
 }
 

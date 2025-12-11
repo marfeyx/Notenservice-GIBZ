@@ -1,0 +1,44 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+nav, .page-footer {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+}
+
+#login-button {
+    width: 180px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    #login-button:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+.feature-card {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+.feature-content {
+    display: none;
+    padding: 15px;
+}
+
+.feature-card.active .feature-content {
+    display: block;
+}
+
+.section {
+    padding: 60px 0;
+}
