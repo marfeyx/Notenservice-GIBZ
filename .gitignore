@@ -427,3 +427,4 @@ Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.AssemblyIn
 Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.AssemblyInfoInputs.cache
 Notenservice/Notenservice.Web/obj/Debug/net8.0/Notenservice.Web.AssemblyInfo.cs
 *.cache
+*.cache
