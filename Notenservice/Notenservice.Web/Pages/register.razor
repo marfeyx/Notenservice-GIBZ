@@ -1,4 +1,6 @@
 ﻿@page "/Register"
+@using Todo.Shared.DTO
+@using global::Web.Service
 <PageTitle>Register</PageTitle>
 
 <section>
@@ -11,13 +13,13 @@
 
         <input placeholder="Password" @bind="newPassword" />
 
-        <button 
+@*         <button 
             disabled="@string.IsNullOrWhiteSpace(newUsername)" 
             disabled="@string.IsNullOrWhiteSpace(newEmail)" 
             disabled="@string.IsNullOrWhiteSpace(newPassword)"
             @onclick="() => registerUser(newUsername, newEmail, newPassword)">
             Add
-        </button>
+        </button> *@
     </div>
 
     @if (!string.IsNullOrEmpty(errorMessage))

@@ -1,6 +1,8 @@
-﻿namespace Web.Service;
+﻿using Todo.Shared.DTO;
+
+namespace Web.Service;
 public interface IAuthService
 {
-    Task<AuthResponse?> RegisterAsync(UserLoginRequestDTO registerModel);
+    Task<AuthResponse?> RegisterAsync(UserRegistrationRequestDTO registerModel);
     Task<AuthResponse?> LoginAsync(UserLoginRequestDTO loginModel);
 }

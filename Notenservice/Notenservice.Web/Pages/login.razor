@@ -1,4 +1,11 @@
 ﻿@page "/Login"
+@using global::Web.Service
+@inject IJSRuntime JS
+@inject AuthenticationStateProvider AuthStateProvider
+@inject HttpClient Http
+@inject NavigationManager Nav
+
+
 <section>
     <h1 class="text-center m-3">Login</h1>
 

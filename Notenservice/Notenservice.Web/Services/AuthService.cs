@@ -43,11 +43,6 @@ public class AuthService : IAuthService
         Console.WriteLine("Login succesful!");
         return authResponse;
     }
-
-    public Task<AuthResponse?> RegisterAsync(UserRegistrationRequestDTO registerModel)
-    {
-        throw new NotImplementedException();
-    }
 }
 
 

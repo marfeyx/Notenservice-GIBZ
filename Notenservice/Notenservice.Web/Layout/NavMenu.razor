@@ -9,17 +9,11 @@
 
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
-        <AuthorizeView>
-        <NotAuthorized>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="Homepage">
                 <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Home
             </NavLink>
         </div>
-        </NotAuthorized>
-        </AuthorizeView>
-        <AuthorizeView>
-        <NotAuthorized>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="login">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
@@ -29,10 +23,6 @@
                 Login
             </NavLink>
         </div>
-        </NotAuthorized>
-        </AuthorizeView>
-        <AuthorizeView>
-        <Authorized>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="logout">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
@@ -42,8 +32,6 @@
                 Logout
             </NavLink>
         </div>
-        </Authorized>
-        </AuthorizeView>
     </nav>
 </div>
 
