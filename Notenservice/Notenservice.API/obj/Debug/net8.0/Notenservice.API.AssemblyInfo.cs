@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Notenservice.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7b47ec85d9d6d59c8db067f82e91a0de81c5575")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb2a6e41d1f94e713ee8fe713856473ee4c8614")]
 [assembly: System.Reflection.AssemblyProductAttribute("Notenservice.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Notenservice.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

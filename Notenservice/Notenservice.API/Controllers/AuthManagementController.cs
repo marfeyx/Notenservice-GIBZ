@@ -1,6 +1,10 @@
+using System;
+using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -32,10 +36,12 @@ public class AuthManagementController : ControllerBase
 
             if (existingUser != null)
             {
-                return BadRequest(new UserRegistrationRequestDTO()
+                return BadRequest(new RegistrationResponse()
                 {
                     Success = false,
-                    Errors = ["E-Mail-Adresse existiert bereits."]
+                    Errors = new List<string>(){
+                                            "E-Mail-Adresse existiert bereits."
+                                        }
                 });
             }
 

@@ -3,56 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\notenservice.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\notenservice.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\notenservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\notenservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\controllers\\todostatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\controllers\\todostatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\controllers\\requeststatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\controllers\\requeststatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\controllers\\todoprioritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\controllers\\todoprioritycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\controllers\\todoitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\controllers\\todoitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\inbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\inbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\trostj2\\desktop\\github repos\\notenservice-gibz\\notenservice\\notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-=======
       "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\controllers\\authmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\controllers\\authmanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\requeststatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\requeststatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\configuration\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\configuration\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\models\\requestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\models\\requestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\models\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\models\\requeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\requests\\userregistrationrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,65 +51,39 @@
       "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\requests\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\response\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\response\\registrationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\requestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\todostatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\todostatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\domain\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\domain\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\todoprioritydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\todoprioritydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\dto\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\dto\\authresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.shared\\notenservice.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A5400CF7-A75F-1AB3-0DC7-1742AD39E8EE}|Notenservice.Shared\\Notenservice.Shared.csproj|solutionrelative:notenservice.shared\\notenservice.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D519A57B-AA72-3C93-2520-CCEDF0EC39FE}|Notenservice.API\\Notenservice.API.csproj|solutionrelative:notenservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\homepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\services\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\services\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\inbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\inbox.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\pages\\logout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|c:\\users\\rutterl1\\documents\\vscode\\gibz\\m293\\projekt\\notenservice-gibz\\notenservice\\notenservice.web\\customhttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -132,7 +94,19 @@
       "RelativeMoniker": "D:0:0:{05604FF3-5F44-D157-3EAC-6D75F50E7EE0}|Notenservice.Web\\Notenservice.Web.csproj|solutionrelative:notenservice.web\\customauthstateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\UoW\\UnitOfWork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,60 +116,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 5,
-=======
           "SelectedChildIndex": 0,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 2,
-              "Title": "logout.razor",
-              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
-              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\logout.razor",
-              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
-              "RelativeToolTip": "Notenservice.Web\\Pages\\logout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T07:54:59.849Z",
-=======
               "DocumentIndex": 0,
-              "Title": "TodoContext.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\TodoContext.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Models\\TodoContext.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\TodoContext.cs",
-              "RelativeToolTip": "Notenservice.API\\Models\\TodoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:26:51.51Z",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "Title": "Notenservice.Web",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Notenservice.Web.csproj",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Notenservice.Web.csproj",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Notenservice.Web.csproj*",
+              "RelativeToolTip": "Notenservice.Web\\Notenservice.Web.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T08:19:23.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 1,
-=======
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Program.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Program.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Program.cs",
-              "RelativeToolTip": "Notenservice.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "RequestStatus.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\RequestStatus.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Models\\RequestStatus.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\RequestStatus.cs",
+              "RelativeToolTip": "Notenservice.API\\Models\\RequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:25:30.543Z",
+              "WhenOpened": "2025-12-11T08:18:12.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Models\\Request.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\Request.cs",
+              "RelativeToolTip": "Notenservice.API\\Models\\Request.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:07:45.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequestStatusDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\RequestStatusDTO.cs",
+              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\RequestStatusDTO.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\RequestStatusDTO.cs",
+              "RelativeToolTip": "Notenservice.Shared\\DTO\\RequestStatusDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:04:16.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RequestContext.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\RequestContext.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Models\\RequestContext.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Models\\RequestContext.cs",
+              "RelativeToolTip": "Notenservice.API\\Models\\RequestContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:00:17.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestStatusController.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\RequestStatusController.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\RequestStatusController.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\RequestStatusController.cs",
+              "RelativeToolTip": "Notenservice.API\\Controllers\\RequestStatusController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:58:05.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "Notenservice.API\\Controllers\\RequestController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwHwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:57:03.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Notenservice.API",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj",
+              "RelativeDocumentMoniker": "Notenservice.API\\Notenservice.API.csproj",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj*",
+              "RelativeToolTip": "Notenservice.API\\Notenservice.API.csproj*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T07:49:44.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "logout.razor",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
+              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\logout.razor",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
+              "RelativeToolTip": "Notenservice.Web\\Pages\\logout.razor",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-11T07:30:49.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserRegistrationRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\Requests\\UserRegistrationRequestDTO.cs",
               "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\Requests\\UserRegistrationRequestDTO.cs",
@@ -203,12 +245,51 @@
               "RelativeToolTip": "Notenservice.Shared\\DTO\\Requests\\UserRegistrationRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:51.503Z",
+              "WhenOpened": "2025-12-11T08:16:02.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "AuthManagementController.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthManagementController.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\AuthManagementController.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthManagementController.cs",
+              "RelativeToolTip": "Notenservice.API\\Controllers\\AuthManagementController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAgwF4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:55:47.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\RequestDTO.cs",
+              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\RequestDTO.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\RequestDTO.cs",
+              "RelativeToolTip": "Notenservice.Shared\\DTO\\RequestDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T08:03:31.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthResult.cs",
+              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Domain\\AuthResult.cs",
+              "RelativeDocumentMoniker": "Notenservice.API\\Domain\\AuthResult.cs",
+              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Domain\\AuthResult.cs",
+              "RelativeToolTip": "Notenservice.API\\Domain\\AuthResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:54:59.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UserLoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\Requests\\UserLoginRequest.cs",
               "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\Requests\\UserLoginRequest.cs",
@@ -216,191 +297,25 @@
               "RelativeToolTip": "Notenservice.Shared\\DTO\\Requests\\UserLoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:50.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtConfig.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Configuration\\JwtConfig.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Configuration\\JwtConfig.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Configuration\\JwtConfig.cs",
-              "RelativeToolTip": "Notenservice.API\\Configuration\\JwtConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:21:55.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthManagementController.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\AuthManagementController.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthManagementController.cs",
-              "RelativeToolTip": "Notenservice.API\\Controllers\\AuthManagementController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwE4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:22:04.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TodoItemController.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\TodoItemController.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\TodoItemController.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\TodoItemController.cs",
-              "RelativeToolTip": "Notenservice.API\\Controllers\\TodoItemController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAswDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:22:12.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoPriorityController.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\TodoPriorityController.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\TodoPriorityController.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\TodoPriorityController.cs",
-              "RelativeToolTip": "Notenservice.API\\Controllers\\TodoPriorityController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAowBcAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:22:18.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TodoStatusController.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\TodoStatusController.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\TodoStatusController.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\TodoStatusController.cs",
-              "RelativeToolTip": "Notenservice.API\\Controllers\\TodoStatusController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAowBcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:22:25.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegistrationResponse.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\Response\\RegistrationResponse.cs",
-              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\Response\\RegistrationResponse.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\Response\\RegistrationResponse.cs",
-              "RelativeToolTip": "Notenservice.Shared\\DTO\\Response\\RegistrationResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:47.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TodoStatusDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\TodoStatusDTO.cs",
-              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\TodoStatusDTO.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\TodoStatusDTO.cs",
-              "RelativeToolTip": "Notenservice.Shared\\DTO\\TodoStatusDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:44.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TodoPriorityDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\TodoPriorityDTO.cs",
-              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\TodoPriorityDTO.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\TodoPriorityDTO.cs",
-              "RelativeToolTip": "Notenservice.Shared\\DTO\\TodoPriorityDTO.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:42.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TodoItemDTO.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\TodoItemDTO.cs",
-              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\TodoItemDTO.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\TodoItemDTO.cs",
-              "RelativeToolTip": "Notenservice.Shared\\DTO\\TodoItemDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:37.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthResult.cs",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\AuthResult.cs",
-              "RelativeDocumentMoniker": "Notenservice.Shared\\DTO\\AuthResult.cs",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\DTO\\AuthResult.cs",
-              "RelativeToolTip": "Notenservice.Shared\\DTO\\AuthResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T09:23:28.091Z",
+              "WhenOpened": "2025-12-11T07:43:29.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Notenservice.Shared",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
-              "RelativeDocumentMoniker": "Notenservice.Shared\\Notenservice.Shared.csproj",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
-              "RelativeToolTip": "Notenservice.Shared\\Notenservice.Shared.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T09:23:04.889Z",
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.100\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-12-11T07:31:19.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Notenservice.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\appsettings.json",
-              "RelativeToolTip": "Notenservice.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-04T09:12:12.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
-              "Title": "login.razor",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\login.razor",
-              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\login.razor",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\login.razor",
-              "RelativeToolTip": "Notenservice.Web\\Pages\\login.razor",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "OverriddenGroupName": "Notenservice.Web\\Pages",
-              "WhenOpened": "2025-11-27T07:54:55.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 6,
-=======
-              "DocumentIndex": 21,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "DocumentIndex": 19,
               "Title": "Inbox.razor",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\Inbox.razor",
               "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\Inbox.razor",
@@ -408,15 +323,12 @@
               "RelativeToolTip": "Notenservice.Web\\Pages\\Inbox.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T07:54:54.248Z"
+              "WhenOpened": "2025-12-11T07:30:49.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 4,
-=======
-              "DocumentIndex": 20,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "DocumentIndex": 17,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Services\\Abstract\\IAuthService.cs",
               "RelativeDocumentMoniker": "Notenservice.Web\\Services\\Abstract\\IAuthService.cs",
@@ -424,38 +336,25 @@
               "RelativeToolTip": "Notenservice.Web\\Services\\Abstract\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:09:42.781Z"
+              "WhenOpened": "2025-12-11T07:30:49.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 0,
-              "Title": "Homepage.razor",
-              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\Homepage.razor",
-              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\Homepage.razor",
-              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\Homepage.razor*",
-              "RelativeToolTip": "Notenservice.Web\\Pages\\Homepage.razor*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
-=======
-              "DocumentIndex": 19,
+              "DocumentIndex": 15,
               "Title": "homepage.razor",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\homepage.razor",
               "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\homepage.razor",
               "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\homepage.razor",
               "RelativeToolTip": "Notenservice.Web\\Pages\\homepage.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T07:54:51.605Z",
+              "WhenOpened": "2025-12-11T07:30:49.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 5,
-=======
               "DocumentIndex": 18,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
               "Title": "register.razor",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\register.razor",
               "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\register.razor",
@@ -463,15 +362,12 @@
               "RelativeToolTip": "Notenservice.Web\\Pages\\register.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T07:54:58.577Z"
+              "WhenOpened": "2025-12-11T07:30:49.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-=======
-              "DocumentIndex": 17,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "DocumentIndex": 16,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Notenservice.Web\\Services\\AuthService.cs",
@@ -479,11 +375,12 @@
               "RelativeToolTip": "Notenservice.Web\\Services\\AuthService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwCMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:08:32.136Z"
+              "WhenOpened": "2025-12-11T07:30:49.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Notenservice.Web\\Layout\\NavMenu.razor",
@@ -491,53 +388,34 @@
               "RelativeToolTip": "Notenservice.Web\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T07:45:05.227Z"
-            },
-            {
-              "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
-              "RelativeToolTip": "Notenservice.API\\Service\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T07:44:18.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BBOnlineShopDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
-              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
-              "RelativeToolTip": "Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Notenservice.API\\Database",
-              "WhenOpened": "2025-11-27T09:00:19.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-=======
-              "DocumentIndex": 23,
-              "Title": "logout.razor",
-              "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
-              "RelativeDocumentMoniker": "Notenservice.Web\\Pages\\logout.razor",
-              "ToolTip": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\Pages\\logout.razor",
-              "RelativeToolTip": "Notenservice.Web\\Pages\\logout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-27T07:54:59.849Z",
+              "WhenOpened": "2025-12-11T07:30:49.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Service\\UserService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:30:49.803Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "Title": "BBOnlineShopDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
+              "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Database\\BBOnlineShopDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T07:30:49.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "CustomHttpHandler.cs",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\CustomHttpHandler.cs",
               "RelativeDocumentMoniker": "Notenservice.Web\\CustomHttpHandler.cs",
@@ -545,11 +423,12 @@
               "RelativeToolTip": "Notenservice.Web\\CustomHttpHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:11:25.081Z"
+              "WhenOpened": "2025-12-11T07:30:49.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "CustomAuthStateProvider.cs",
               "DocumentMoniker": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Web\\CustomAuthStateProvider.cs",
               "RelativeDocumentMoniker": "Notenservice.Web\\CustomAuthStateProvider.cs",
@@ -557,50 +436,41 @@
               "RelativeToolTip": "Notenservice.Web\\CustomAuthStateProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:11:03.647Z"
+              "WhenOpened": "2025-12-11T07:30:49.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 13,
+              "DocumentIndex": 25,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Notenservice.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Controllers\\AuthController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "Notenservice.API\\Controllers",
-              "WhenOpened": "2025-11-27T08:10:46.358Z"
+              "WhenOpened": "2025-12-11T07:30:49.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-=======
               "DocumentIndex": 26,
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
               "Title": "Readme.txt",
               "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
               "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Readme.txt",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-27T07:41:57.108Z"
-<<<<<<< HEAD
+              "WhenOpened": "2025-12-11T07:30:49.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\UoW\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Notenservice.API\\UoW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\UoW\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\UoW\\UnitOfWork.cs",
-              "RelativeToolTip": "Notenservice.API\\UoW\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\UoW\\UnitOfWork.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T08:07:13.01Z"
-=======
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+              "WhenOpened": "2025-12-11T07:30:49.819Z"
             }
           ]
         }
