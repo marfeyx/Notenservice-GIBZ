@@ -7,10 +7,10 @@ public class AuthService : IAuthService
     private readonly HttpClient _httpClient;
     private readonly CustomAuthStateProvider _authStateProvider;
 
-    public AuthService(HttpClient httpClient, AuthenticationStateProvider authStateProvider)
+    public AuthService(HttpClient httpClient, CustomAuthStateProvider authStateProvider)
     {
         _httpClient = httpClient;
-        _authStateProvider = (CustomAuthStateProvider)authStateProvider;
+        _authStateProvider = authStateProvider;
     }
 
     public async Task<AuthResponse?> RegisterAsync(UserRegistrationRequestDTO registerModel)
