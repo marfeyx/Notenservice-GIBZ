@@ -429,3 +429,6 @@ Notenservice/Notenservice.Web/obj/Debug/net8.0/Notenservice.Web.AssemblyInfo.cs
 *.cache
 *.cache
 *.bin
+*.cache
+*.cache
+*.cs

@@ -2,18 +2,6 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
-    "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj",
-        "projectName": "Notenservice.API",
-        "projectPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj",
-        "packagesPath": "C:\\Users\\trostj2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\obj\\",
-=======
     "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj": {}
   },
   "projects": {
@@ -25,17 +13,29 @@
         "projectPath": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj",
         "packagesPath": "C:\\Users\\rutterl1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\obj\\",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+=======
+    "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj",
+        "projectName": "Notenservice.API",
+        "projectPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\Notenservice.API.csproj",
+        "packagesPath": "C:\\Users\\trostj2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.API\\obj\\",
+>>>>>>> 3b5e14546881c2420ae9e0810e746b8725848d38
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
 <<<<<<< HEAD
-          "C:\\Users\\trostj2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\rutterl1\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+=======
+          "C:\\Users\\trostj2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 3b5e14546881c2420ae9e0810e746b8725848d38
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -52,12 +52,12 @@
             "targetAlias": "net8.0",
             "projectReferences": {
 <<<<<<< HEAD
-              "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj": {
-                "projectPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj"
-=======
               "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj": {
                 "projectPath": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj"
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+=======
+              "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj": {
+                "projectPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj"
+>>>>>>> 3b5e14546881c2420ae9e0810e746b8725848d38
               }
             }
           }
@@ -135,19 +135,6 @@
             }
           },
 <<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
-        "projectName": "Notenservice.Shared",
-        "projectPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
-        "packagesPath": "C:\\Users\\trostj2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(, 8.0.32767]",
@@ -580,17 +567,30 @@
         "projectPath": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
         "packagesPath": "C:\\Users\\rutterl1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rutterl1\\Documents\\VSCode\\GIBZ\\M293\\Projekt\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\obj\\",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
+        "projectName": "Notenservice.Shared",
+        "projectPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\Notenservice.Shared.csproj",
+        "packagesPath": "C:\\Users\\trostj2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trostj2\\Desktop\\GitHub Repos\\Notenservice-GIBZ\\Notenservice\\Notenservice.Shared\\obj\\",
+>>>>>>> 3b5e14546881c2420ae9e0810e746b8725848d38
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
 <<<<<<< HEAD
-          "C:\\Users\\trostj2\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
           "C:\\Users\\rutterl1\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+=======
+          "C:\\Users\\trostj2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 3b5e14546881c2420ae9e0810e746b8725848d38
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -666,8 +666,6 @@
             }
           },
 <<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(, 4.7.32767]",
@@ -951,7 +949,9 @@
             "System.Xml.XPath": "(, 4.3.32767]",
             "System.Xml.XPath.XDocument": "(, 4.3.32767]"
           }
->>>>>>> 08a2aece14ad5a0518386427deb022dc2099734b
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 3b5e14546881c2420ae9e0810e746b8725848d38
         }
       }
     }
