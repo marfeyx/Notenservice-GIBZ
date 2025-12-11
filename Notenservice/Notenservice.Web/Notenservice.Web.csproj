@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Notenservice.Shared\Notenservice.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\NewFolder\" />
+  </ItemGroup>
+
 </Project>
