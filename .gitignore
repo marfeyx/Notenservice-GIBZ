@@ -432,3 +432,6 @@ Notenservice/Notenservice.Web/obj/Debug/net8.0/Notenservice.Web.AssemblyInfo.cs
 *.cache
 *.cache
 *.cs
+*.v2
+Notenservice/.vs/Notenservice.slnx/v18/.suo
+*.cache
