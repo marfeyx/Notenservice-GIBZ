@@ -440,3 +440,12 @@ Notenservice/Notenservice.API/obj/Debug/net8.0/Notenservice.API.AssemblyInfo.cs
 Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.AssemblyInfoInputs.cache
 Notenservice/Notenservice.Web/obj/Debug/net8.0/Notenservice.Web.AssemblyInfo.cs
 Notenservice/Notenservice.Web/obj/Debug/net8.0/Notenservice.Web.AssemblyInfoInputs.cache
+*.cache
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.csproj.CoreCompileInputs.cache
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/ref/Notenservice.Shared.dll
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/refint/Notenservice.Shared.dll
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.sourcelink.json
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.pdb
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.dll
+Notenservice/Notenservice.Shared/obj/Debug/net8.0/Notenservice.Shared.AssemblyInfo.cs
+Notenservice/Notenservice.Shared/bin/Debug/net8.0/Notenservice.Shared.pdb
