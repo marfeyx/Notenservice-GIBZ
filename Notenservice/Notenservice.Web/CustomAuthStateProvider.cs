@@ -1,4 +1,5 @@
-﻿using Microsoft.JSInterop;
+﻿using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.JSInterop;
 using System.Security.Claims;
 using System.Text.Json;
 public class CustomAuthStateProvider : AuthenticationStateProvider

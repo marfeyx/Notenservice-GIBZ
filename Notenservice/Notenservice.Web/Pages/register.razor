@@ -35,6 +35,11 @@
     string newPassword = "";
     string? errorMessage;
 
+    AuthService AuthService = new AuthService()
+    {
+        
+    };
+
     private async Task registerUser(string name, string email, string password)
     {
         errorMessage = null;
