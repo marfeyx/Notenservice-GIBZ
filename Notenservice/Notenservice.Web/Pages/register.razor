@@ -1,6 +1,8 @@
 ﻿@page "/Register"
 @using Todo.Shared.DTO
 @using global::Web.Service
+@inject HttpClient HttpClient
+@inject CustomAuthStateProvider AuthStateProvider
 <PageTitle>Register</PageTitle>
 
 <section>
@@ -35,10 +37,12 @@
     string newPassword = "";
     string? errorMessage;
 
-    AuthService AuthService = new AuthService()
+    AuthService _authService;
+
+    protected override void OnInitialized()
     {
-        
-    };
+        _authService = new AuthService(HttpClient, AuthStateProvider);
+    }
 
     private async Task registerUser(string name, string email, string password)
     {
@@ -60,7 +64,7 @@
 
         try
         {
-            var result = await AuthService.RegisterAsync(request);
+            var result = await _authService.RegisterAsync(request);
             if (result is not null)
             {
                 newUsername = "";
