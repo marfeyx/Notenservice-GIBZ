@@ -5,6 +5,10 @@
       {
         "Path": "Notenservice.API\\Notenservice.API.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Notenservice.Web\\Notenservice.Web.csproj",
+        "Action": "Start"
       }
     ]
   }
