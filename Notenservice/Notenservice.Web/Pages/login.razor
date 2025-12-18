@@ -2,9 +2,9 @@
 @using Microsoft.AspNetCore.Components.Authorization
 @using global::Web.Service
 @inject IJSRuntime JS
-@inject AuthenticationStateProvider AuthStateProvider
-@inject HttpClient Http
 @inject NavigationManager Nav
+@inject HttpClient HttpClient
+@inject CustomAuthStateProvider AuthStateProvider
 
 
 <section>
@@ -35,13 +35,20 @@
     string Password = "";
     string? error;
 
+    AuthService _authService;
+
+    protected override void OnInitialized()
+    {
+        _authService = new AuthService(HttpClient, AuthStateProvider);
+    }
+
     private async Task LoginAsync()
     {
         error = null;
 
         try
         {
-            var result = await AuthService.LoginAsync(new UserLoginRequestDTO
+            var result = await _authService.LoginAsync(new UserLoginRequestDTO
             {
                 Username = Username.Trim(),
                 Password = Password
@@ -55,7 +62,7 @@
                     await custom.MarkUserAsAuthenticated(result.Token);
                 }
 
-                Http.DefaultRequestHeaders.Authorization =
+                HttpClient.DefaultRequestHeaders.Authorization =
                     new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", result.Token);
 
                 Nav.NavigateTo("/shop");
