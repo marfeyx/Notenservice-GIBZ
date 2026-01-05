@@ -1,3 +1,25 @@
+html,
+body,
+#app {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.page,
+main,
+.content {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
+article {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -96,12 +118,4 @@ a, .btn-link {
 
 code {
     color: #c02d76;
-}
-
-.page,
-main,
-.content {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 100%;
 }
