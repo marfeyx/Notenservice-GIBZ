@@ -58,6 +58,7 @@
     <PackageReference Include="Blazor.Bootstrap" Version="3.4.0" />
     <PackageReference Include="bootstrap" Version="5.3.8" />
     <PackageReference Include="FluentValidation" Version="12.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="10.0.0" />
   </ItemGroup>
 
 </Project>

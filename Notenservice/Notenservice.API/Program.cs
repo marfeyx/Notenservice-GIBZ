@@ -67,9 +67,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TodoApi v1"));
 }
 
-app.UseRouting();
 
-app.UseAuthentication();
+app.UseRouting();
 
 app.UseAuthorization();
 
@@ -82,5 +81,7 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 });
+
+app.UseAuthentication();
 
 app.Run();
