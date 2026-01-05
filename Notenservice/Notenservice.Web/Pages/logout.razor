@@ -136,12 +136,6 @@
         background: #e8f5e9;
         color: #2e7d32;
     }
-
-    @media (max-width: 992px) {
-        .auth-layout {
-            flex-direction: column;
-        }
-    }
 </style>
 
 <div class="page-shell">
@@ -165,7 +159,7 @@
                 <button class="btn waves-effect waves-light blue darken-2 full-width"
                         @onclick="LogoutAsync"
                         disabled="@_isProcessing">
-                    @_isProcessing ? "Wird abgemeldet..." : "Jetzt abmelden"
+                    @(_isProcessing ? "Wird abgemeldet..." : "Jetzt abmelden")
                 </button>
 
                 <a class="btn-flat full-width" href="/homepage">
