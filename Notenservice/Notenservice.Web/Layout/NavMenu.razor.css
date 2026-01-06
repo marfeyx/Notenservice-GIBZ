@@ -7,6 +7,13 @@
     background-color: rgba(0,0,0,0.4);
 }
 
+nav.flex-column {
+    background-color: transparent;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar-brand {
     font-size: 1.1rem;
 }
