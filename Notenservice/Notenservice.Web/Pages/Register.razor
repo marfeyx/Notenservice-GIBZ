@@ -1,0 +1,335 @@
+﻿@page "/register"
+@using Todo.Shared.DTO
+@using global::Web.Service
+@inject HttpClient HttpClient
+@inject CustomAuthStateProvider AuthStateProvider
+
+@* fix naming *@
+<PageTitle>Registrierung</PageTitle>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<style>
+    :root {
+        --primary-color: #1976d2;
+        --primary-dark: #0d47a1;
+        --gradient-start: #e3f2fd;
+        --gradient-mid: #bbdefb;
+    }
+
+    .page-shell {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-mid) 50%, var(--gradient-start) 100%);
+    }
+
+    nav.light-blue {
+        box-shadow: none;
+    }
+
+    .auth-wrapper {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 16px;
+    }
+
+    .auth-layout {
+        width: 100%;
+        max-width: 1100px;
+        display: flex;
+        gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .auth-card {
+        background: #ffffff;
+        border-radius: 20px;
+        padding: 40px 32px;
+        box-shadow: 0 25px 70px rgba(25, 118, 210, 0.18);
+        flex: 1 1 360px;
+    }
+
+    .card-header-icon {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+
+    .card-header-icon .material-icons {
+        font-size: 56px;
+    }
+
+    .auth-card h2 {
+        margin: 8px 0 10px;
+        text-align: center;
+        color: var(--primary-dark);
+        font-weight: 600;
+    }
+
+    .auth-card p.lead {
+        text-align: center;
+        color: #546e7a;
+        margin-bottom: 28px;
+    }
+
+    .info-panel {
+        flex: 1 1 280px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .info-card {
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 24px;
+        box-shadow: 0 20px 50px rgba(13, 71, 161, 0.14);
+    }
+
+    .info-card h4 {
+        margin: 10px 0 6px;
+        color: var(--primary-dark);
+        font-weight: 600;
+    }
+
+    .info-card p {
+        margin: 0;
+        color: #5f6368;
+        line-height: 1.5;
+    }
+
+    .info-card i.material-icons {
+        font-size: 40px;
+        margin-bottom: 8px;
+        color: var(--primary-color);
+    }
+
+    .full-width {
+        width: 100%;
+    }
+
+    .helper-links {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        font-size: 0.95rem;
+        color: #546e7a;
+    }
+
+    .helper-links a {
+        font-weight: 600;
+        color: var(--primary-color);
+    }
+
+    .feedback {
+        margin-top: 18px;
+        border-radius: 12px;
+        padding: 12px 16px;
+        font-weight: 600;
+    }
+
+    .feedback-error {
+        background: #ffebee;
+        color: #c62828;
+    }
+
+    .feedback-success {
+        background: #e8f5e9;
+        color: #2e7d32;
+    }
+
+    .input-field input {
+        padding-left: 2.5rem !important;
+    }
+
+    .input-field i.prefix {
+        color: var(--primary-color);
+    }
+</style>
+
+<div class="page-shell">
+    <nav class="light-blue darken-2">
+        <div class="nav-wrapper">
+            <a href="/homepage" class="brand-logo" style="margin-left:15px;">
+                <img src="../Images/GIBZLogo.png" alt="GIBZ Logo" style="height:50px;" />
+            </a>
+        </div>
+    </nav>
+
+    <section class="auth-wrapper">
+        <div class="auth-layout">
+            <div class="auth-card z-depth-3">
+                <div class="card-header-icon">
+                    <i class="material-icons large blue-text text-darken-2">how_to_reg</i>
+                </div>
+                <h2>Registrierung</h2>
+                <p class="lead">Erstelle dein Notenservice-Profil und arbeite nahtlos mit dem Team.</p>
+
+                <form @onsubmit="RegisterAsync" @onsubmit:preventDefault>
+                    <div class="input-field">
+                        <i class="material-icons prefix">badge</i>
+                        <input id="register-username"
+                               class="validate"
+                               type="text"
+                               @bind="newUsername"
+                               @bind:event="oninput"
+                               autocomplete="username"
+                               required />
+                        <label for="register-username">Benutzername</label>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input id="register-email"
+                               class="validate"
+                               type="email"
+                               @bind="newEmail"
+                               @bind:event="oninput"
+                               autocomplete="email"
+                               required />
+                        <label for="register-email">E-Mail-Adresse</label>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="register-password"
+                               class="validate"
+                               type="password"
+                               minlength="6"
+                               @bind="newPassword"
+                               @bind:event="oninput"
+                               autocomplete="new-password"
+                               required />
+                        <label for="register-password">Passwort</label>
+                        <span class="helper-text">Mindestens 6 Zeichen.</span>
+                    </div>
+
+                    <button class="btn waves-effect waves-light blue darken-2 full-width"
+                            type="submit"
+                            disabled="@(_isProcessing || !IsFormValid)">
+                        @(_isProcessing ? "Wird registriert..." : "Registrieren")
+                    </button>
+                </form>
+
+                <div class="helper-links">
+                    <span>Bereits registriert?</span>
+                    <a href="/login">Zum Login</a>
+                </div>
+
+                @if (!string.IsNullOrWhiteSpace(successMessage))
+                {
+                    <div class="feedback feedback-success" role="status">@successMessage</div>
+                }
+
+                @if (!string.IsNullOrWhiteSpace(errorMessage))
+                {
+                    <div class="feedback feedback-error" role="alert">@errorMessage</div>
+                }
+            </div>
+
+            <aside class="info-panel">
+                <div class="info-card">
+                    <i class="material-icons">groups</i>
+                    <h4>Rollen & Teams</h4>
+                    <p>Weise dich Klassen oder Rollen zu, um passende Berechtigungen zu erhalten.</p>
+                </div>
+                <div class="info-card">
+                    <i class="material-icons">task_alt</i>
+                    <h4>Transparente Prozesse</h4>
+                    <p>Nachverfolgbare Änderungen und Freigaben für jede Note.</p>
+                </div>
+                <div class="info-card">
+                    <i class="material-icons">insights</i>
+                    <h4>Auswertungen</h4>
+                    <p>Erhalte Einblicke in Trends und aktuelle Antragsstände.</p>
+                </div>
+            </aside>
+        </div>
+    </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        M.AutoInit();
+    });
+</script>
+
+@code {
+    private string newUsername = string.Empty;
+    private string newEmail = string.Empty;
+    private string newPassword = string.Empty;
+    private string? successMessage;
+    private string? errorMessage;
+    private AuthService _authService = default!;
+    private bool _isProcessing;
+
+    private bool IsFormValid =>
+        !string.IsNullOrWhiteSpace(newUsername) &&
+        !string.IsNullOrWhiteSpace(newEmail) &&
+        !string.IsNullOrWhiteSpace(newPassword);
+
+    protected override void OnInitialized()
+    {
+        _authService = new AuthService(HttpClient, AuthStateProvider);
+    }
+
+    private async Task RegisterAsync()
+    {
+        if (_isProcessing)
+        {
+            return;
+        }
+
+        errorMessage = null;
+        successMessage = null;
+
+        if (!IsFormValid)
+        {
+            errorMessage = "Bitte fülle alle Felder aus.";
+            return;
+        }
+
+        _isProcessing = true;
+
+        try
+        {
+            var request = new UserRegistrationRequestDTO
+            {
+                Username = newUsername.Trim(),
+                Email = newEmail.Trim(),
+                Password = newPassword
+            };
+
+            var result = await _authService.RegisterAsync(request);
+
+            if (result is not null)
+            {
+                successMessage = "Registrierung erfolgreich! Du kannst dich jetzt anmelden.";
+                newUsername = string.Empty;
+                newEmail = string.Empty;
+                newPassword = string.Empty;
+            }
+            else
+            {
+                errorMessage = "Registrierung fehlgeschlagen. Bitte erneut versuchen.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Registrierung fehlgeschlagen: {ex.Message}";
+        }
+        finally
+        {
+            _isProcessing = false;
+        }
+    }
+}
