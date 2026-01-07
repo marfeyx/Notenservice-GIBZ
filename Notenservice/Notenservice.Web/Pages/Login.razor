@@ -1,10 +1,11 @@
-﻿@page "/register"
-@using Todo.Shared.DTO
+﻿@page "/login"
 @using global::Web.Service
+@inject NavigationManager Nav
 @inject HttpClient HttpClient
 @inject CustomAuthStateProvider AuthStateProvider
 
-<PageTitle>Registrierung</PageTitle>
+@* fix naming *@
+<PageTitle>Login</PageTitle>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -140,11 +141,6 @@
         color: #c62828;
     }
 
-    .feedback-success {
-        background: #e8f5e9;
-        color: #2e7d32;
-    }
-
     .input-field input {
         padding-left: 2.5rem !important;
     }
@@ -153,6 +149,7 @@
         color: var(--primary-color);
     }
 </style>
+
 
 <div class="page-shell">
     <nav class="light-blue darken-2">
@@ -167,66 +164,47 @@
         <div class="auth-layout">
             <div class="auth-card z-depth-3">
                 <div class="card-header-icon">
-                    <i class="material-icons large blue-text text-darken-2">how_to_reg</i>
+                    <i class="material-icons large blue-text text-darken-2">login</i>
                 </div>
-                <h2>Registrierung</h2>
-                <p class="lead">Reiche Notenänderungsanträge schnell & einfach ein.</p>
+                <h2>Anmeldung</h2>
+                <p class="lead">Greife auf dein persönliches Noten-Postfach zu.</p>
 
-                <form @onsubmit="RegisterAsync" @onsubmit:preventDefault>
+                <form @onsubmit="LoginAsync" @onsubmit:preventDefault>
                     <div class="input-field">
-                        <i class="material-icons prefix">badge</i>
-                        <input id="register-username"
+                        <i class="material-icons prefix">person</i>
+                        <input id="login-username"
                                class="validate"
                                type="text"
-                               @bind="newUsername"
+                               @bind="Username"
                                @bind:event="oninput"
                                autocomplete="username"
                                required />
-                        <label for="register-username">Benutzername</label>
-                    </div>
-
-                    <div class="input-field">
-                        <i class="material-icons prefix">email</i>
-                        <input id="register-email"
-                               class="validate"
-                               type="email"
-                               @bind="newEmail"
-                               @bind:event="oninput"
-                               autocomplete="email"
-                               required />
-                        <label for="register-email">E-Mail-Adresse</label>
+                        <label for="login-username">Benutzername</label>
                     </div>
 
                     <div class="input-field">
                         <i class="material-icons prefix">lock</i>
-                        <input id="register-password"
+                        <input id="login-password"
                                class="validate"
                                type="password"
-                               minlength="6"
-                               @bind="newPassword"
+                               @bind="Password"
                                @bind:event="oninput"
-                               autocomplete="new-password"
+                               autocomplete="current-password"
                                required />
-                        <label for="register-password">Passwort</label>
-                        <span class="helper-text">Mindestens 6 Zeichen.</span>
+                        <label for="login-password">Passwort</label>
                     </div>
 
                     <button class="btn waves-effect waves-light blue darken-2 full-width"
                             type="submit"
-                            disabled="@(_isProcessing || !IsFormValid)">
-                        @(_isProcessing ? "Wird registriert..." : "Registrieren")
+                            disabled="@_isProcessing">
+                        @(_isProcessing ? "Wird angemeldet..." : "Login")
                     </button>
                 </form>
 
                 <div class="helper-links">
-                    <span>Bereits registriert?</span>
-                    <a href="/login">Zum Login</a>
+                    <span>Noch keinen Zugang?</span>
+                    <a href="/register">Jetzt registrieren</a>
                 </div>
-
-                @if (!string.IsNullOrWhiteSpace(successMessage))
-                {
-                    <div class="feedback feedback-success" role="status">@successMessage</div>
-                }
 
                 @if (!string.IsNullOrWhiteSpace(errorMessage))
                 {
@@ -236,19 +214,19 @@
 
             <aside class="info-panel">
                 <div class="info-card">
-                    <i class="material-icons">groups</i>
-                    <h4>Einfache Notenänderung</h4>
-                    <p>Beantrage Notenänderungen von Schülern aus allen deinen Klassen.</p>
+                    <i class="material-icons">verified_user</i>
+                    <h4>Sichere Anmeldung</h4>
+                    <p>JWT-basierte Authentifizierung mit rollenbasierten Berechtigungen.</p>
                 </div>
                 <div class="info-card">
-                    <i class="material-icons">task_alt</i>
-                    <h4>Simples UI</h4>
-                    <p>Die Applikation hat ein einfaches Design das jeder versteht.</p>
+                    <i class="material-icons">notifications_active</i>
+                    <h4>Live informiert</h4>
+                    <p>Daten und Anträge sind sicher in einer Datenbank.</p>
                 </div>
                 <div class="info-card">
-                    <i class="material-icons">insights</i>
-                    <h4>Auswertungen</h4>
-                    <p>Sehe Live-änderungen zu deinen Anträgen.</p>
+                    <i class="material-icons">speed</i>
+                    <h4>Schneller Einstieg</h4>
+                    <p>Einfaches, intuitives und lightweight design.</p>
                 </div>
             </aside>
         </div>
@@ -263,25 +241,18 @@
 </script>
 
 @code {
-    private string newUsername = string.Empty;
-    private string newEmail = string.Empty;
-    private string newPassword = string.Empty;
-    private string? successMessage;
+    private string Username { get; set; } = string.Empty;
+    private string Password { get; set; } = string.Empty;
     private string? errorMessage;
     private AuthService _authService = default!;
     private bool _isProcessing;
-
-    private bool IsFormValid =>
-        !string.IsNullOrWhiteSpace(newUsername) &&
-        !string.IsNullOrWhiteSpace(newEmail) &&
-        !string.IsNullOrWhiteSpace(newPassword);
 
     protected override void OnInitialized()
     {
         _authService = new AuthService(HttpClient, AuthStateProvider);
     }
 
-    private async Task RegisterAsync()
+    private async Task LoginAsync()
     {
         if (_isProcessing)
         {
@@ -289,42 +260,31 @@
         }
 
         errorMessage = null;
-        successMessage = null;
-
-        if (!IsFormValid)
-        {
-            errorMessage = "Bitte fülle alle Felder aus.";
-            return;
-        }
-
         _isProcessing = true;
 
         try
         {
-            var request = new UserRegistrationRequestDTO
+            var result = await _authService.LoginAsync(new UserLoginRequestDTO
             {
-                Username = newUsername.Trim(),
-                Email = newEmail.Trim(),
-                Password = newPassword
-            };
+                Username = Username.Trim(),
+                Password = Password
+            });
 
-            var result = await _authService.RegisterAsync(request);
-
-            if (result is not null)
+            if (result is not null && !string.IsNullOrWhiteSpace(result.Token))
             {
-                successMessage = "Registrierung erfolgreich! Du kannst dich jetzt anmelden.";
-                newUsername = string.Empty;
-                newEmail = string.Empty;
-                newPassword = string.Empty;
+                HttpClient.DefaultRequestHeaders.Authorization =
+                    new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", result.Token);
+
+                Nav.NavigateTo("/inbox", true);
             }
             else
             {
-                errorMessage = "Registrierung fehlgeschlagen. Bitte erneut versuchen.";
+                errorMessage = "Ungültige Anmeldedaten. Bitte erneut versuchen.";
             }
         }
         catch (Exception ex)
         {
-            errorMessage = $"Registrierung fehlgeschlagen: {ex.Message}";
+            errorMessage = $"Login fehlgeschlagen: {ex.Message}";
         }
         finally
         {
@@ -332,3 +292,4 @@
         }
     }
 }
+
