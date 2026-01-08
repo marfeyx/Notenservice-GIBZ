@@ -79,7 +79,7 @@ app.UseCors(policy =>
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers();
+    _ = endpoints.MapControllers();
 });
 
 app.UseAuthentication();
