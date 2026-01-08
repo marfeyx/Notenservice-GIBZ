@@ -67,21 +67,20 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "NotenserviceApi v1"));
 }
 
-
 app.UseRouting();
-
-app.UseAuthorization();
 
 app.UseCors(policy =>
     policy.WithOrigins("http://localhost:5002", "https://localhost:5003")
     .AllowAnyMethod()
     .AllowAnyHeader());
 
+app.UseAuthentication();
+app.UseAuthorization();
+
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
 });
 
-app.UseAuthentication();
 
 app.Run();
