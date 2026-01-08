@@ -1,14 +1,17 @@
 ﻿@page "/register"
 @using Todo.Shared.DTO
 @using global::Web.Service
+@using System.ComponentModel.DataAnnotations
+@using System.Linq
 @inject HttpClient HttpClient
 @inject CustomAuthStateProvider AuthStateProvider
 
-@* fix naming *@
 <PageTitle>Registrierung</PageTitle>
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- STYLES -->
 
 <style>
     :root {
@@ -155,6 +158,8 @@
     }
 </style>
 
+<!-- END STYLES -->
+
 <div class="page-shell">
     <nav class="light-blue darken-2">
         <div class="nav-wrapper">
@@ -203,13 +208,13 @@
                         <input id="register-password"
                                class="validate"
                                type="password"
-                               minlength="6"
+                               minlength="8"
                                @bind="newPassword"
                                @bind:event="oninput"
                                autocomplete="new-password"
                                required />
                         <label for="register-password">Passwort</label>
-                        <span class="helper-text">Mindestens 6 Zeichen.</span>
+                        <span class="helper-text">Mindestens 8 Zeichen und ein Sonderzeichen.</span>
                     </div>
 
                     <button class="btn waves-effect waves-light blue darken-2 full-width"
@@ -272,10 +277,17 @@
     private AuthService _authService = default!;
     private bool _isProcessing;
 
+    private static readonly EmailAddressAttribute EmailValidator = new();
+
+    private bool PasswordMeetsLength => !string.IsNullOrWhiteSpace(newPassword) && newPassword.Length >= 8;
+    private bool PasswordHasSpecialChar => !string.IsNullOrWhiteSpace(newPassword) && newPassword.Any(ch => !char.IsLetterOrDigit(ch));
+
     private bool IsFormValid =>
         !string.IsNullOrWhiteSpace(newUsername) &&
+        PasswordMeetsLength &&
+        PasswordHasSpecialChar &&
         !string.IsNullOrWhiteSpace(newEmail) &&
-        !string.IsNullOrWhiteSpace(newPassword);
+        EmailValidator.IsValid(newEmail);
 
     protected override void OnInitialized()
     {
@@ -294,7 +306,7 @@
 
         if (!IsFormValid)
         {
-            errorMessage = "Bitte fülle alle Felder aus.";
+            errorMessage = "Bitte prüfe Benutzername, E-Mail und Passwort (mindestens 8 Zeichen inkl. Sonderzeichen).";
             return;
         }
 

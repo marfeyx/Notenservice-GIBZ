@@ -90,6 +90,36 @@
             padding: 20px 0;
         }
 
+        .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+
+        .footer-left {
+            flex: 1 1 320px;
+        }
+
+        .footer-right {
+            flex: 0 0 auto;
+            text-align: right;
+        }
+
+            .footer-right ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+        @media (max-width: 600px) {
+            .footer-right {
+                text-align: left;
+                width: 100%;
+            }
+        }
+
     </style> <!-- STYLES FOR HOMEPAGE-->
 
 </head> 
@@ -148,12 +178,12 @@
 
     <footer class="page-footer blue darken-2">
         <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
+            <div class="row footer-row">
+                <div class="col l6 s12 footer-left">
                     <h5 class="white-text">GIBZ</h5>
                     <p class="grey-text text-lighten-4">Das GIBZ ist mehr als eine Schule, es ist ein Ort, an dem Menschen lernen, leben und sich entfalten.</p>
                 </div>
-                <div class="col l3 s12">
+                <div class="col l3 s12 footer-right">
                     <h5 class="white-text">Quicklinks</h5>
                     <ul>
                         <li><a class="white-text" href="/login">Login</a></li>
