@@ -26,9 +26,9 @@ CREATE TABLE User (
 -- Create the 'Request'
 CREATE TABLE Request (
     Id INT PRIMARY KEY AUTO_INCREMENT,
-    ModuleAcronym VARCHAR(50) NOT NULL,
+    CourseName VARCHAR(50) NOT NULL,
     NewGrade DECIMAL(3,1),
-    RequestComment VARCHAR(100),
+    RequestDescription VARCHAR(100),
 	StudentId INT,
     FOREIGN KEY (StudentId) REFERENCES Student(Id)
 );
@@ -49,6 +49,6 @@ INSERT INTO User (Firstname, Lastname, RoleId) VALUES
 ('Werner', 'Odermatt', 2);
 
 -- Insert example data into 'Request'
-INSERT INTO Request (ModuleAcronym, NewGrade, RequestComment, StudentId) VALUES
+INSERT INTO Request (CourseName, NewGrade, RequestDescription, StudentId) VALUES
 ('M431', 6.0, 'Very Good Grade', 1),
 ('M431', 5.0, 'Good Grade', 1);
