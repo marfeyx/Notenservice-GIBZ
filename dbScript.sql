@@ -9,18 +9,12 @@ CREATE TABLE Student (
     Lastname VARCHAR(50) NOT NULL
 );
 
-CREATE TABLE Role (
-	Id INT PRIMARY KEY AUTO_INCREMENT,
-    RoleName VARCHAR(50)
-);
-
 -- Create the 'User' table
 CREATE TABLE User (
     Id INT PRIMARY KEY AUTO_INCREMENT,
     Firstname VARCHAR(50) NOT NULL,
     Lastname VARCHAR(50) NOT NULL,
-    RoleId INT,
-    FOREIGN KEY (RoleId) REFERENCES Role(Id)
+    UserRole VARCHAR(50) NOT NULL
 );
 
 -- Create the 'Request'
@@ -40,7 +34,7 @@ INSERT INTO Role (RoleName) VALUES
 -- Insert example data into 'Student'
 INSERT INTO Student (Firstname, Lastname) VALUES
 ('Max', 'Mustermann'),
-('Lara', 'Musterfrau'),
+('Mara', 'Musterfrau'),
 ('Jan', 'Frischknecht');
 
 -- Insert example data into 'User'
