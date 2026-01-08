@@ -33,9 +33,9 @@ INSERT INTO Role (RoleName) VALUES
 
 -- Insert example data into 'Student'
 INSERT INTO Student (Firstname, Lastname) VALUES
-('Max', 'Mustermann'),
-('Mara', 'Musterfrau'),
-('Jan', 'Frischknecht');
+('Minimaler', 'Blödian'),
+('Sigma', 'Mangofirma'),
+('Max', 'Schradin);
 
 -- Insert example data into 'User'
 INSERT INTO User (Firstname, Lastname, RoleId) VALUES
