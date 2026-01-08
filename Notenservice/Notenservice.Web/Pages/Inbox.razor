@@ -1,1 +1,392 @@
-﻿
+﻿@page "/inbox"
+@using Notenservice.Shared.DTO.Requests
+@using Microsoft.AspNetCore.Components.Authorization
+@inject AuthenticationStateProvider AuthStateProvider
+@inject HttpClient Http
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+
+<PageTitle>Inbox</PageTitle>
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<style>
+    :root {
+        --primary: #1976d2;
+        --primary-dark: #0d47a1;
+        --bg: #e3f2fd;
+    }
+
+    .inbox-shell {
+        background: linear-gradient(135deg, var(--bg) 0%, #bbdefb 60%, var(--bg) 100%);
+        min-height: calc(100vh - 40px);
+        padding: 32px 16px;
+    }
+
+    .hero-card {
+        border-radius: 16px;
+        padding: 20px;
+        margin-bottom: 18px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(25, 118, 210, 0.18);
+    }
+
+    .hero-card h3 {
+        margin: 0;
+        color: var(--primary-dark);
+        font-weight: 600;
+    }
+
+    .chip.role {
+        font-weight: 600;
+        letter-spacing: .3px;
+    }
+
+    .card-panel.error {
+        border-radius: 14px;
+        background: #ffebee;
+        color: #c62828;
+    }
+
+    .request-card {
+        border-radius: 14px;
+        box-shadow: 0 12px 35px rgba(13, 71, 161, 0.12);
+    }
+
+    .request-item {
+        border-bottom: 1px solid #eceff1;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+    }
+
+    .request-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .status-chip {
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .status-pending {
+        background: #ffb300;
+    }
+
+    .status-approved {
+        background: #43a047;
+    }
+
+    .status-denied {
+        background: #e53935;
+    }
+
+    .request-actions button {
+        margin-right: 8px;
+    }
+
+    .form-card {
+        border-radius: 14px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+</style>
+
+<div class="inbox-shell">
+    <div class="container">
+        <div class="hero-card">
+            <i class="material-icons blue-text text-darken-2" style="font-size:44px;">inbox</i>
+            <div>
+                <h3>Posteingang</h3>
+                <p class="grey-text text-darken-1">Rollenspezifische Anträge verwalten.</p>
+            </div>
+            <span class="chip role @(_isDirector ? "blue darken-2 white-text" : "teal accent-4 white-text")">
+                @(_isDirector ? "Director" : "Teacher")
+            </span>
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(_error))
+        {
+            <div class="card-panel error">
+                <span>@_error</span>
+            </div>
+        }
+
+        <div class="row">
+            <div class="col s12 m8">
+                <div class="card request-card">
+                    <div class="card-content">
+                        <span class="card-title">Anträge</span>
+
+                        @if (_isLoading)
+                        {
+                            <div class="progress blue lighten-4">
+                                <div class="indeterminate blue darken-2"></div>
+                            </div>
+                        }
+                        else if (_requests.Count == 0)
+                        {
+                            <p class="grey-text text-darken-1">Keine Anträge vorhanden.</p>
+                        }
+                        else
+                        {
+                            @foreach (RequestDTO request in _requests.OrderByDescending(r => r.Id))
+                            {
+                                <div class="request-item">
+                                    <div class="row" style="margin-bottom:8px;">
+                                        <div class="col s12 m8">
+                                            <h6 style="margin:0;">
+                                                <span class="chip lighten-4 blue-text text-darken-2" style="margin-right:8px;">@request.CourseAlias</span>
+                                                <strong>@request.StudentName</strong> (#@request.StudentId)
+                                            </h6>
+                                            <p class="grey-text text-darken-1" style="margin:4px 0 0;">Neue Note: <strong>@request.NewGrade</strong></p>
+                                        </div>
+                                        <div class="col s12 m4 right-align">
+                                            <span class="chip status-chip @GetStatusCss(request.StatusId)">@GetStatusLabel(request.StatusId)</span>
+                                        </div>
+                                    </div>
+
+                                    <p class="grey-text text-darken-2" style="margin:4px 0;">@request.Description</p>
+                                    <div class="chip grey lighten-3 black-text" style="margin-right:8px;">Lehrer: @request.Teacher</div>
+
+                                    @if (_isDirector)
+                                    {
+                                        <div class="request-actions" style="margin-top:10px;">
+                                            <button class="btn green darken-1 waves-effect waves-light"
+                                                    disabled="@(_statusBusyId == request.Id)"
+                                                    @onclick="() => UpdateStatusAsync(request, 1)">
+                                                <i class="material-icons left">check</i>Approve
+                                            </button>
+                                            <button class="btn red darken-1 waves-effect waves-light"
+                                                    disabled="@(_statusBusyId == request.Id)"
+                                                    @onclick="() => UpdateStatusAsync(request, 2)">
+                                                <i class="material-icons left">close</i>Deny
+                                            </button>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @if (_isTeacher)
+            {
+                <div class="col s12 m4">
+                    <div class="card form-card">
+                        <div class="card-content">
+                            <span class="card-title">Neuen Antrag erstellen</span>
+                            <EditForm Model="_newRequest" OnValidSubmit="CreateRequestAsync">
+                                <DataAnnotationsValidator />
+                                <ValidationSummary />
+                                <div class="input-field">
+                                    <input id="courseAlias" type="text" class="validate" @bind="_newRequest.CourseAlias" @bind:event="oninput" required />
+                                    <label for="courseAlias">Kurskürzel</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="teacherName" type="text" class="validate" value="@_teacherName" readonly />
+                                    <label for="teacherName" class="active">Lehrer</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="studentName" type="text" class="validate" @bind="_newRequest.StudentName" @bind:event="oninput" required />
+                                    <label for="studentName">Schülername</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="studentId" type="number" class="validate" @bind="_newRequest.StudentId" />
+                                    <label for="studentId">Schüler-ID</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="newGrade" type="number" step="0.1" class="validate" @bind="_newRequest.NewGrade" />
+                                    <label for="newGrade">Neue Note</label>
+                                </div>
+                                <div class="input-field">
+                                    <textarea id="description" class="materialize-textarea" @bind="_newRequest.Description" @bind:event="oninput"></textarea>
+                                    <label for="description">Beschreibung</label>
+                                </div>
+                                <button class="btn waves-effect waves-light blue darken-2 full-width" type="submit" disabled="@_isSubmitting">
+                                    @(_isSubmitting ? "Wird gesendet..." : "Antrag erstellen")
+                                </button>
+                            </EditForm>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    private readonly List<RequestDTO> _requests = new();
+    private RequestDTO _newRequest = new()
+    {
+        CourseAlias = string.Empty,
+        Teacher = string.Empty,
+        Description = string.Empty,
+        NewGrade = 0,
+        StudentName = string.Empty,
+        StudentId = 0,
+        StatusId = 0
+    };
+
+    private bool _isLoading = true;
+    private bool _isSubmitting;
+    private string? _error;
+    private bool _isDirector;
+    private bool _isTeacher;
+    private string _teacherName = string.Empty;
+    private int? _statusBusyId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        AuthenticationState state = await AuthStateProvider.GetAuthenticationStateAsync();
+        if (state.User.Identity is null || !state.User.Identity.IsAuthenticated)
+        {
+            Nav.NavigateTo("/login", true);
+            return;
+        }
+
+        _isDirector = state.User.IsInRole("Director") || state.User.IsInRole("director");
+        _isTeacher = state.User.IsInRole("Teacher") || state.User.IsInRole("teacher");
+
+        _teacherName = state.User.Identity?.Name
+                       ?? state.User.Claims.FirstOrDefault(c => c.Type is "name" or "unique_name")?.Value
+                       ?? string.Empty;
+
+        await EnsureBearerAsync();
+        await LoadRequestsAsync();
+    }
+
+    private async Task EnsureBearerAsync()
+    {
+        string? token = await JS.InvokeAsync<string>("localStorage.getItem", "authToken");
+        if (!string.IsNullOrWhiteSpace(token) && Http.DefaultRequestHeaders.Authorization == null)
+        {
+            Http.DefaultRequestHeaders.Authorization =
+                new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+        }
+    }
+
+    private async Task LoadRequestsAsync()
+    {
+        _isLoading = true;
+        _error = null;
+
+        try
+        {
+            List<RequestDTO>? items = await Http.GetFromJsonAsync<List<RequestDTO>>("api/Request");
+            if (items != null)
+            {
+                if (_isDirector)
+                {
+                    _requests.Clear();
+                    _requests.AddRange(items);
+                }
+                else if (_isTeacher)
+                {
+                    string teacher = _teacherName.Trim();
+                    _requests.Clear();
+                    _requests.AddRange(items.Where(r => string.Equals(r.Teacher?.Trim(), teacher, StringComparison.OrdinalIgnoreCase)));
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            _error = $"Anträge konnten nicht geladen werden: {ex.Message}";
+        }
+        finally
+        {
+            _isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task UpdateStatusAsync(RequestDTO request, long newStatus)
+    {
+        _statusBusyId = request.Id;
+        _error = null;
+
+        try
+        {
+            request.StatusId = (int)newStatus;
+            HttpResponseMessage response = await Http.PutAsJsonAsync($"api/Request/{request.Id}", request);
+            if (!response.IsSuccessStatusCode)
+            {
+                _error = $"Status konnte nicht aktualisiert werden ({(int)response.StatusCode} {response.ReasonPhrase}).";
+            }
+        }
+        catch (Exception ex)
+        {
+            _error = $"Fehler beim Aktualisieren: {ex.Message}";
+        }
+        finally
+        {
+            _statusBusyId = null;
+            StateHasChanged();
+        }
+    }
+
+    private async Task CreateRequestAsync()
+    {
+        if (_isSubmitting)
+        {
+            return;
+        }
+
+        _isSubmitting = true;
+        _error = null;
+
+        try
+        {
+            _newRequest.Teacher = _teacherName;
+            _newRequest.StatusId = 0;
+
+            HttpResponseMessage response = await Http.PostAsJsonAsync("api/Request", _newRequest);
+            response.EnsureSuccessStatusCode();
+
+            RequestDTO? created = await response.Content.ReadFromJsonAsync<RequestDTO>();
+            if (created != null)
+            {
+                _requests.Insert(0, created);
+            }
+
+            _newRequest = new RequestDTO
+            {
+                CourseAlias = string.Empty,
+                Teacher = _teacherName,
+                Description = string.Empty,
+                NewGrade = 0,
+                StudentName = string.Empty,
+                StudentId = 0,
+                StatusId = 0
+            };
+        }
+        catch (Exception ex)
+        {
+            _error = $"Antrag konnte nicht erstellt werden: {ex.Message}";
+        }
+        finally
+        {
+            _isSubmitting = false;
+            StateHasChanged();
+        }
+    }
+
+    private static string GetStatusLabel(long statusId) => statusId switch
+    {
+        1 => "Approved",
+        2 => "Denied",
+        _ => "Pending"
+    };
+
+    private static string GetStatusCss(long statusId) => statusId switch
+    {
+        1 => "status-approved",
+        2 => "status-denied",
+        _ => "status-pending"
+    };
+}
